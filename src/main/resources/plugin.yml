@@ -3,7 +3,16 @@ description: ${project.description}
 main: ${project.mainclass}
 version: ${project.version}
 author: Mitsugaru
+softdepend: [Vault, HeroChat]
+
+commands:
+    badge:
+        description: Root command for Badges.
+
 permissions:
-    Badges.use:
-        description: Allows use of badges.
+    Badges.admin:
+        description: Allows plugin administration.
         default: op
+    Badges.ignore:
+        description: Ignores the player's badges on the chat event.
+        default: false

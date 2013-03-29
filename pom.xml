@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <!-- Project properties. -->
     <artifactId>Badges</artifactId>
-    <version>0.1</version>
+    <version>0.1-SNAPSHOT</version>
     <name>Badges</name>
     <description>Prefix system.</description>
     <!-- Parent -->

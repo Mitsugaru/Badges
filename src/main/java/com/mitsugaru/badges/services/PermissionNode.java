@@ -1,9 +1,9 @@
 package com.mitsugaru.badges.services;
 
 public enum PermissionNode {
-   USE("use");
+   ADMIN("admin"), IGNORE("ignore");
 
-   private static final String prefix = "Sarcasm.";
+   private static final String prefix = "Badges.";
 
    private String node;
 

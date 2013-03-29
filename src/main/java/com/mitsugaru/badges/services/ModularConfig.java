@@ -15,7 +15,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  * 
  * @author Mitsugaru
  */
-public abstract class ModularConfig<T extends JavaPlugin> {
+public abstract class ModularConfig<T extends JavaPlugin> implements IModule {
    /**
     * Root Java plugin reference
     */
